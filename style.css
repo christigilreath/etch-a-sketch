@@ -1,0 +1,65 @@
+body {
+    background-color: lightblue;
+    display: flex;
+    
+}
+#container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#game-area{
+    background-color: red;
+    border-radius: 10px;
+    height: 500px;
+    width: 800px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+    
+}
+
+#sketch-area {
+    background-color: gray;
+    height: 400px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+#grid-row-div {
+    
+    
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+}
+
+
+#grid-item {
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    height: 100%;
+    
+    flex-grow: 1;   
+    
+} 
+
+.pink {
+    background-color: pink;
+}
+
+.yellow {
+    background-color: yellow;
+}
